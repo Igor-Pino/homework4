@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Моя первая робота</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-nav">
+            <nav class="main-site-nav">
+                <a href="" class="link logo"><span class="logo-part">Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li class="site-nav-item"><a href="./index.html" class="site-nav-link current">Студия</a></li>
+                    <li class="site-nav-item"><a href="./portfolio.html" class="site-nav-link">Портфолио</a></li>
+                    <li class="site-nav-item"><a href="" class="site-nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts-nav list">
+                <li class="contacts-nav-li"><a href="mailto:info@devstudio.com" class="contacts-nav-item">                                      
+                        info@devstudio.com</a></li>
+                <li class="contacts-nav-li"><a href="tel:+380961111111" class="contacts-nav-item">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!--Секция герой-->
+        <section class="hero overlay">
+            <div class="container">
+                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <button type="button" class="hero-btn">Заказать услугу</button>
+            </div>
+        </section>
+
+        <!--Секция наши особенности-->
+        <section class="section">
+            <div class="container">
+                <h2 class="visually-hidden">Особенности</h2>
+                <ul class="features list">
+                    <li class="features-item">
+                        <h3 class="title">Внимание к деталям</h3>
+                        <p class="features-paragraph">Идейные соображения, а также начало повседневной работы по
+                            формированию позиции.</p>
+                    </li>
+                    <li class="features-item">
+                        <h3 class="title">Пунктуальность</h3>
+                        <p class="features-paragraph">Задача организации, в особенности же рамки и место обучения
+                            кадров
+                            влечет за собой.</p>
+                    </li>
+                    <li class="features-item">
+                        <h3 class="title">Планирование</h3>
+                        <p class="features-paragraph">Равным образом консультация с широким активом в значительной
+                            степени
+                            обуславливает.</p>
+                    </li>
+                    <li class="features-item">
+                        <h3 class="title">Современные технологии</h3>
+                        <p class="features-paragraph">Значимость этих проблем настолько очевидна, что реализация
+                            плановых
+                            заданий.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Секция наши услуги-->
+        <section class="section">
+            <div class="services container">
+                <h2 class="services-title section-title">Чем мы занимаемся</h2>
+                <ul class="services-ul list">
+                    <li class="services-ul-item">
+                        <img src="./images/Examples/keyboard.jpg" alt="клавіатура" width="370">
+                    </li>
+                    <li class="services-ul-item">
+                        <img src="./images/Examples/notebook.jpg" alt="ноутбук" width="370">
+                    </li>
+                    <li class="services-ul-item">
+                        <img src="./images/Examples/tablet.jpg" alt="планшет" width="370">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Секция наши сотрудники-->
+        <section class="team section">
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="our-team list">
+                    <li class="team-list-item">
+                        <img src="./images/our_team/IgorD.jpg" alt="Игорь Демьяненко" width="270">
+                        <div class="team-list-content">
+                            <h3 class="team-mamber">Игорь Демьяненко</h3>
+                            <p class="team-list-text">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./images/our_team/OlgaR.jpg" alt="Ольга Репина" width="270">
+                        <div class="team-list-content">
+                            <h3 class="team-mamber">Ольга Репина</h3>
+                            <p class="team-list-text">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./images/our_team/NikolayT.jpg" alt="Николай Тарасов" width="270">
+                        <div class="team-list-content">
+                            <h3 class="team-mamber">Николай Тарасов</h3>
+                            <p class="team-list-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./images/our_team/MikeE.jpg" alt="Михаил Ермаков" width="270">
+                        <div class="team-list-content">
+                            <h3 class="team-mamber">Михаил Ермаков</h3>
+                            <p class="team-list-text">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="./index.html" class="footer-logo link"><span class="logo-part">Web</span>Studio</a>
+            <address>
+                <p class=address>г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="contact list">
+                    <li><a href="mailto:info@devstudio.com" class=link>info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+    
+</body>
+
+<svg class="svg" wight="16px" height="12px">
+    <use href="./images/svg/symbol-defs.svg#envelope"></use>
+</svg>
+
+</html>
