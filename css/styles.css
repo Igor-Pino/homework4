@@ -16,7 +16,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --second-text-accent-color: #ffffff;
-  --footer-contacts-color: rgba(255, 255, 255, 0, 6);
+  --footer-contacts-color: rgba(255, 255, 255, .6);
 
   --font-main: "Roboto", sans-serif;
   --font-second: "Raleway";
@@ -52,7 +52,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--footer-contacts-color);
+  color: var(--second-border-color);
 }
 
 h2,
@@ -170,18 +170,12 @@ h3 {
 
 
 
-
-
-
-
-
-
-
 /* contacts-nav */
 
 
 
 .contacts-nav-link {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -296,7 +290,7 @@ h3 {
 .features-paragraph {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71x;
+  line-height: 1.71;
   color: var(--primary-text-color);
 }
 
@@ -304,10 +298,6 @@ h3 {
   padding: 25px 100px;
   margin-bottom: 30px;
   background-color: var(--accent-background-color);
-}
-.features-icon {
-  width: 70px;
-  height: 70px;
 }
 
 /* our services */
@@ -336,6 +326,7 @@ h3 {
 /* our team */
 
 .team {
+  width: auto;
   background-color: var(--accent-background-color);
 }
 
@@ -354,8 +345,10 @@ h3 {
   box-shadow: var(--shadow);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  background-color: var(--body-background-color);
 }
 .team-list-content {
+  padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 16px;
@@ -368,6 +361,7 @@ h3 {
   color: var(--title-text-color);
 }
 .team-list-text {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -379,9 +373,8 @@ h3 {
   margin-right: 10px;
 }
 .icon-social {
-  width: 20px;
-  height: 20px;
-  fill: var(--second-border-color);
+ 
+  fill: currentColor;
 }
 .social-link {
   display: flex;
@@ -452,6 +445,9 @@ h3 {
   color: var(--second-text-accent-color);
 }
 
+.footer-link {
+  color: var(--footer-contacts-color);
+}
 
 .second-footer-block {
   margin-left: 69px;
@@ -487,9 +483,8 @@ color: var(--second-text-accent-color);
 
 .social-footer-icon {
   fill: #ffffff;
-  width: 20px;
-  height: 20px;
 }
+
 .social-footer-link:hover,
 .social-footer-link:focus {
   background-color: var(--accent-text-color);
